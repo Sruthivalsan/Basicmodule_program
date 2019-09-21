@@ -60,11 +60,13 @@ public class Customeregistration
 			
 			System.out.println("***Customers list**");
 			System.out.println("The registered customers are:");
-			System.out.println("name:");
+			System.out.println("customerID: name:");
 			for(int i = 1;  i <=ID; i ++)
 			{
-				System.out.println(name[i]);
+				System.out.println(+i+"\t    "+name[i]);
+				
 			}
+			
 			
 			
 		
